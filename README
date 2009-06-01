@@ -1,0 +1,13 @@
+EmailsHaveBitlyUrls
+===================
+
+When sending email, all URLs will be replaced with bit.ly compressed ones.
+If an exception occurs, none of the URLs will be compressed.
+
+Installation
+============
+
+After installing, be sure to setup your bit.ly API credentials inside of RAILS_ROOT/config/initializers/bitly.rb,
+otherwise the tests and the plugin will not work!
+
+Copyright (c) 2009 Chirag Dave, released under the MIT license
